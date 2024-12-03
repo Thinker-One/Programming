@@ -1,5 +1,5 @@
 ### 1. 控制 cout 打印颜色
-```
+```c++
 #include <iostream>
 
 // 定义颜色常量
