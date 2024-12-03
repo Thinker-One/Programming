@@ -2,7 +2,7 @@
 ```c++
 #include <iostream>
 
-const std::string RESET   = "\033[0m";	     // 重置颜色
+const std::string RESET   = "\033[0m";	     // 重置为默认颜色（一般是白色）
 const std::string RED     = "\033[31m";      // 红色
 const std::string GREEN   = "\033[32m";      // 绿色
 const std::string YELLOW  = "\033[33m";      // 黄色
