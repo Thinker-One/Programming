@@ -1,7 +1,7 @@
 ### 1. 控制 cout 打印颜色
 ```c++
 #include <iostream>
-#include <stdio.h>
+#include <cstdio>
 
 #define ENABLE_LOG 1		// 控制打印的开启和关闭
 #if ENABLE_LOG
