@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cstdio>
 
-#define ENABLE_LOG 1		                // 控制打印的开启和关闭
+#define ENABLE_LOG 1		             // 控制打印的开启和关闭
 #if ENABLE_LOG
 #define LOG_INFO(color, fmt, ...) \
     do { \
