@@ -1,4 +1,4 @@
-### 1. C++ 彩色输出
+### 1. C++ 显示彩色调试信息
 ```c++
 #include <iostream>
 #include <cstdio>
