@@ -5,8 +5,7 @@ bool RemoteServerConnection::getMacAddress(const std::string& ip, std::string& m
   struct ifaddrs* ifaddr;
   struct ifaddrs* ifa;
   int family;
-  char host[NI_MAXHOST];
-  char mac[18];
+  char host[NI_MAXHOST] = {0}, mac[18] = {0};
 
   if (getifaddrs(&ifaddr) == -1) {
       perror("getifaddrs");
