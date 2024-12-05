@@ -1,4 +1,4 @@
-### 1. 控制 cout 打印颜色
+### 1. C++ 彩色输出
 ```c++
 #include <iostream>
 #include <cstdio>
